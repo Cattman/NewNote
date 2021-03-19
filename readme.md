@@ -4,4 +4,4 @@ A rich text editor hand-designed with <3 for better note taking.
 
 -designed by Alex Watson 
 
-![](/img/InitialsLogoClippedSm.png)
+![](/img/InitialsLogoClipped32.png)

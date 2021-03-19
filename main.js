@@ -7,7 +7,8 @@ function createWindow () {
     height: 600,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
-    }
+    },
+    icon: path.join(__dirname, 'icon.png')
   })
 
   win.loadFile('index.html')
@@ -28,6 +29,3 @@ app.on('window-all-closed', () => {
     app.quit()
   }
 })
-
-
-  
