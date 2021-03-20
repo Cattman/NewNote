@@ -1,0 +1,36 @@
+#format-pop {
+    height: 45px;
+    width: 245px;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+}
+#format-pop:after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    content: "";
+    border-top: 10px solid #555;
+    top: 45px;
+    left: 105px;
+}
+#format-btn-container{
+    padding-left: 7px;
+}
+.format-btn {
+    background-color: transparent;
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 7px 5px 7px 5px; /* Some padding */
+    font-size: 25px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+
+/* Darker background on mouse-over */
+.format-btn:hover {
+background-color: #444;
+}
